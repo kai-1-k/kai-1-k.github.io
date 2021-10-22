@@ -31,6 +31,7 @@
     </style>
 </head>
 <body>
+    <form action="/Gay.html">
     <h1 class = "blue-text">this is blue</h1>
     <img src="https://cdn.crispedge.com/0504aa.webp" alt="blue"
     width = "100" length = "100">
@@ -48,14 +49,16 @@
     width = "100" length = "100">
     <br>
     <label for="color">which color do u prefer ?</label>
-    <select name="color" id="color">
+    <select name="color" id="color" required>
     <option value=""></option>
     <option value="1">red</option>
     <option value="2">blue</option>
     <option value="3">yellow</option>
     <option value="4">brown</option>
     <option value="5">black</option>
-    required
 </select>
+<br>
+<button type="submit" >提交</button>  
+</form>
 </body>
 </html>
